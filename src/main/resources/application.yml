@@ -1,0 +1,16 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: security
+
+
+
+
+
+#白名单
+ignore:
+  whites:
+    - /login
+    - /logout
